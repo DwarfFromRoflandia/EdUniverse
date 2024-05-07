@@ -120,6 +120,11 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll"
+-r:"Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll"
+-r:"Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll"
+-r:"Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll"
+-r:"Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -366,6 +371,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-PoolMonitor-Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Zenject-ReflectionBaking-Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AudioPlayer.cs"
@@ -374,7 +383,13 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Grid.cs"
 "Assets/Scripts/GridSearch.cs"
+"Assets/Scripts/IMovable.cs"
 "Assets/Scripts/InputManager.cs"
+"Assets/Scripts/LocalInstaller.cs"
+"Assets/Scripts/PlacementManager.cs"
+"Assets/Scripts/RoadFixer.cs"
+"Assets/Scripts/RoadManager.cs"
+"Assets/Scripts/StructureModel.cs"
 -langversion:9.0
 
 /deterministic

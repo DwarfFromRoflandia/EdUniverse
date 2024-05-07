@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private CameraMovement _cameraMovement;
     [SerializeField] private InputManager _inputManager;
+    [SerializeField] private RoadManager _roadManager;
 
     public void Initialize()
     {
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     private void HandleMouseClick(Vector3Int position)
     {
         Debug.Log(position);
+        _roadManager.PlaceRoad(position);
     }
 
     private void Update()
