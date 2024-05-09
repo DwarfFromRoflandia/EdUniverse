@@ -11,6 +11,8 @@ public class PlacementManager : MonoBehaviour
     private Grid _placementGrid;
 
     private Dictionary<Vector3Int, StructureModel> temporaryRoadobjects = new Dictionary<Vector3Int, StructureModel>();
+    private Dictionary<Vector3Int, StructureModel> structureDictionary = new Dictionary<Vector3Int, StructureModel>();
+
     public void Initialize()
     {
         _placementGrid = new Grid(width, height);
@@ -56,6 +58,8 @@ public class PlacementManager : MonoBehaviour
     {
         if (temporaryRoadobjects.ContainsKey(position))
             temporaryRoadobjects[position].SwapModel(newModel, rotation);
+        else if (structureDictionary.ContainsKey(position))
+            structureDictionary[position].SwapModel(newModel, rotation);
 
     }
 
@@ -73,5 +77,64 @@ public class PlacementManager : MonoBehaviour
             neighbours.Add(new Vector3Int(point.X, 0, point.Y));
         }
         return neighbours;
+    }
+
+    internal void RemoveAllTemporaryStructures()
+    {
+        foreach (var structure in temporaryRoadobjects.Values)
+        {
+            var position = Vector3Int.RoundToInt(structure.transform.position);
+            _placementGrid[position.x, position.z] = CellType.Empty;
+            Destroy(structure.gameObject);
+        }
+        temporaryRoadobjects.Clear();
+    }
+
+    internal List<Vector3Int> GetPathBetween(Vector3Int startPosition, Vector3Int endPosition)
+    {
+        var resultPath = GridSearch.AStarSearch(_placementGrid, new Point(startPosition.x, startPosition.z), new Point(endPosition.x, endPosition.z));
+
+        List<Vector3Int> path = new List<Vector3Int>();
+        foreach (Point point in resultPath)
+        {
+            path.Add(new Vector3Int(point.X, 0, point.Y));
+        }
+        return path;
+
+    }
+
+    internal void AddtemporaryStructuresToStructureDictionary()
+    {
+        foreach (var structure in temporaryRoadobjects)
+        {
+            structureDictionary.Add(structure.Key, structure.Value);
+            DestroyNatureAt(structure.Key);
+        }
+        temporaryRoadobjects.Clear();
+    }
+
+    internal void PlaceObjectOnTheMap(Vector3Int position, GameObject structurePrefab, CellType type, int width = 1, int height = 1)
+    {
+        StructureModel structure = CreateANewStructureModel(position, structurePrefab, type);
+
+        for (int x = 0; x < width; x++)
+        {
+            for (int z = 0; z < height; z++)
+            {
+                var newPosition = position + new Vector3Int(x, 0, z);
+                _placementGrid[newPosition.x, newPosition.z] = type;
+                structureDictionary.Add(newPosition, structure);
+                DestroyNatureAt(newPosition);
+            }
+        }
+    }
+
+    private void DestroyNatureAt(Vector3Int position)
+    {
+        RaycastHit[] hits = Physics.BoxCastAll(position + new Vector3(0, 0.5f, 0), new Vector3(0.5f, 0.5f, 0.5f), transform.up, Quaternion.identity, 1f, 1 << LayerMask.NameToLayer("Nature"));
+        foreach (var item in hits)
+        {
+            Destroy(item.collider.gameObject);
+        }
     }
 }

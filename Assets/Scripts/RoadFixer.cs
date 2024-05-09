@@ -7,8 +7,8 @@ using static UnityEngine.UI.GridLayoutGroup;
 
 public class RoadFixer : MonoBehaviour
 {
-    [SerializeField] private GameObject _deadEnd;
-    [SerializeField] private GameObject _roadStraight;
+    public GameObject _deadEnd;
+    public GameObject _roadStraight;
     [SerializeField] private GameObject _corner;
     [SerializeField] private GameObject _threeWay;
     [SerializeField] private GameObject _fourWay;

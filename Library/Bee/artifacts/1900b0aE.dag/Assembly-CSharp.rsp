@@ -389,7 +389,9 @@
 "Assets/Scripts/PlacementManager.cs"
 "Assets/Scripts/RoadFixer.cs"
 "Assets/Scripts/RoadManager.cs"
+"Assets/Scripts/StructureManager.cs"
 "Assets/Scripts/StructureModel.cs"
+"Assets/Scripts/UIController.cs"
 -langversion:9.0
 
 /deterministic
