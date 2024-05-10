@@ -50,7 +50,7 @@ public class UIController : MonoBehaviour
     private void ModifyOutline(Button button)
     {
         var outline = button.GetComponent<Outline>();
-        outline.effectColor = outlineColor;
+        outline.effectColor = outlineColor; 
         outline.enabled = true;
     }
 

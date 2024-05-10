@@ -69,10 +69,10 @@ public class StructureManager : MonoBehaviour
             return false;
         }
 
-        if (RoadCheck(position) == false)
-        {
-            return false;
-        }
+        //if (RoadCheck(position) == false)
+        //{
+        //    return false;
+        //}
         return true;
     }
 
@@ -115,7 +115,7 @@ public class StructureManager : MonoBehaviour
 
     private bool CheckBigStructure(Vector3Int position, int width, int height)
     {
-        bool nearRoad = false;
+        //bool nearRoad = false;
         for (int x = 0; x < width; x++)
         {
             for (int z = 0; z < height; z++)
@@ -126,14 +126,14 @@ public class StructureManager : MonoBehaviour
                 {
                     return false;
                 }
-                if (nearRoad == false)
-                {
-                    nearRoad = RoadCheck(newPosition);
-                }
+                //if (nearRoad == false)
+                //{
+                //    nearRoad = RoadCheck(newPosition);
+                //}
             }
         }
 
-        return nearRoad;
+        return true;
     }
 }
 
