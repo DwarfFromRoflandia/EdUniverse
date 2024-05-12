@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.625131, g: 0.69543827, b: 0.78916645, a: 1}
+  m_IndirectSpecularColor: {r: 0.62513727, g: 0.695441, b: 0.78916824, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15584,6 +15584,7 @@ MonoBehaviour:
   _roadManager: {fileID: 1410840422}
   _uiController: {fileID: 681313534}
   _structureManager: {fileID: 1706352906}
+  _coins: {fileID: 1818557676}
 --- !u!4 &1400744401
 Transform:
   m_ObjectHideFlags: 0
@@ -21212,6 +21213,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4728182390724970563, guid: c8c46a24f1192964a9c4a213493c1c7b, type: 3}
   m_PrefabInstance: {fileID: 1812621940}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1818557675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818557677}
+  - component: {fileID: 1818557676}
+  m_Layer: 0
+  m_Name: Bank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1818557676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818557675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3865b2e456304fe468aa08594c1673e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quantityCoinsText: {fileID: 1364489634}
+--- !u!4 &1818557677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818557675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1837361089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23479,7 +23525,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2027984634}
   - component: {fileID: 2027984633}
-  - component: {fileID: 2027984632}
   m_Layer: 0
   m_Name: SceneContext
   m_TagString: Untagged
@@ -23487,18 +23532,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2027984632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027984631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 314d17a4ae24d9b489dfd7a68a85837f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2027984633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24520,6 +24553,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 2027984634}
   - {fileID: 2044889012}
+  - {fileID: 1818557677}
   - {fileID: 618198063}
   - {fileID: 69977214}
   - {fileID: 1400744401}

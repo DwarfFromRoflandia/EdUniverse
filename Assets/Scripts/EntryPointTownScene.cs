@@ -9,6 +9,7 @@ public class EntryPointTownScene : MonoBehaviour
     [SerializeField] private RoadManager _roadManager;
     [SerializeField] private UIController _uiController;
     [SerializeField] private StructureManager _structureManager;
+    [SerializeField] private Coins _coins;
     private void Start()
     {
         _gameManager.Initialize();
@@ -16,5 +17,6 @@ public class EntryPointTownScene : MonoBehaviour
         _roadManager.Initialize();
         _uiController.Initialize();
         _structureManager.Initialize();
+        _coins.Initialize();
     }
 }
