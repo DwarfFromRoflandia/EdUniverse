@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 
 public class StructureManager : MonoBehaviour
 {
-    public StructurePrefabWeighted[] housesPrefabe, specialPrefabs, bigStructuresPrefabs;
+    public StructurePrefabWeighted[] housesPrefabe, specialPrefabs, bigStructuresPrefabs, playerHousePrefabs;
     public PlacementManager placementManager;
 
     private float[] houseWeights, specialWeights, bigStructureWeights;
@@ -18,6 +18,7 @@ public class StructureManager : MonoBehaviour
         houseWeights = housesPrefabe.Select(prefabStats => prefabStats.weight).ToArray();
         specialWeights = specialPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
         bigStructureWeights = bigStructuresPrefabs.Select(prefabStats => prefabStats.weight).ToArray();
+        bigStructureWeights = playerHousePrefabs.Select(prefabStats => prefabStats.weight).ToArray();
     }
 
     public void PlaceHouse(Vector3Int position)
@@ -109,6 +110,18 @@ public class StructureManager : MonoBehaviour
         {
             int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
             placementManager.PlaceObjectOnTheMap(position, bigStructuresPrefabs[randomIndex].prefab, CellType.Structure, width, height);
+            AudioPlayer.instance.PlayPlacementSound();
+        }
+    }
+
+    internal void PlacePlayerHouseStructure(Vector3Int position)
+    {
+        int width = 2;
+        int height = 2;
+        if (CheckBigStructure(position, width, height))
+        {
+            int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
+            placementManager.PlaceObjectOnTheMap(position, playerHousePrefabs[randomIndex].prefab, CellType.Structure, width, height);
             AudioPlayer.instance.PlayPlacementSound();
         }
     }
