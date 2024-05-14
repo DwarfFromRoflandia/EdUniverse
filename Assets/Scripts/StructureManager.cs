@@ -12,6 +12,8 @@ public class StructureManager : MonoBehaviour
     public PlacementManager placementManager;
 
     private float[] houseWeights, specialWeights, bigStructureWeights;
+    [SerializeField] private UIController _uiController;
+    [SerializeField] private Coins _coins;
 
     public void Initialize()
     {
@@ -25,9 +27,13 @@ public class StructureManager : MonoBehaviour
     {
         if (CheckPositionBeforePlacement(position))
         {
-            int randomIndex = GetRandomWeightedIndex(houseWeights);
-            placementManager.PlaceObjectOnTheMap(position, housesPrefabe[randomIndex].prefab, CellType.Structure);
-            AudioPlayer.instance.PlayPlacementSound();
+            if (_coins.QuantityCoins >= _coins.CostHouses)
+            {
+                int randomIndex = GetRandomWeightedIndex(houseWeights);
+                placementManager.PlaceObjectOnTheMap(position, housesPrefabe[randomIndex].prefab, CellType.Structure);
+                AudioPlayer.instance.PlayPlacementSound();
+                _coins.QuantityCoins -= _coins.CostHouses;
+            }
         }
     }
 
@@ -35,9 +41,14 @@ public class StructureManager : MonoBehaviour
     {
         if (CheckPositionBeforePlacement(position))
         {
-            int randomIndex = GetRandomWeightedIndex(specialWeights);
-            placementManager.PlaceObjectOnTheMap(position, specialPrefabs[randomIndex].prefab, CellType.Structure);
-            AudioPlayer.instance.PlayPlacementSound();
+            if (_coins.QuantityCoins >= _coins.CostCityHall)
+            {
+                int randomIndex = GetRandomWeightedIndex(specialWeights);
+                placementManager.PlaceObjectOnTheMap(position, specialPrefabs[randomIndex].prefab, CellType.Structure);
+                AudioPlayer.instance.PlayPlacementSound();
+                _uiController.BlockButtons();
+                _coins.QuantityCoins -= _coins.CostCityHall;
+            }
         }
     }
 
@@ -108,9 +119,14 @@ public class StructureManager : MonoBehaviour
         int height = 2;
         if (CheckBigStructure(position, width, height))
         {
-            int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
-            placementManager.PlaceObjectOnTheMap(position, bigStructuresPrefabs[randomIndex].prefab, CellType.Structure, width, height);
-            AudioPlayer.instance.PlayPlacementSound();
+            if (_coins.QuantityCoins >= _coins.CostAcropolis)
+            {
+                int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
+                placementManager.PlaceObjectOnTheMap(position, bigStructuresPrefabs[randomIndex].prefab, CellType.Structure, width, height);
+                AudioPlayer.instance.PlayPlacementSound();
+                _uiController.BlockButtons();
+                _coins.QuantityCoins -= _coins.CostAcropolis;
+            }
         }
     }
 
@@ -120,9 +136,14 @@ public class StructureManager : MonoBehaviour
         int height = 2;
         if (CheckBigStructure(position, width, height))
         {
-            int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
-            placementManager.PlaceObjectOnTheMap(position, playerHousePrefabs[randomIndex].prefab, CellType.Structure, width, height);
-            AudioPlayer.instance.PlayPlacementSound();
+            if (_coins.QuantityCoins >= _coins.CostPlayerHouse)
+            {
+                int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
+                placementManager.PlaceObjectOnTheMap(position, playerHousePrefabs[randomIndex].prefab, CellType.Structure, width, height);
+                AudioPlayer.instance.PlayPlacementSound();
+                _uiController.BlockButtons();
+                _coins.QuantityCoins -= _coins.CostPlayerHouse;
+            }
         }
     }
 

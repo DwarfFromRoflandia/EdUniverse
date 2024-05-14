@@ -15,11 +15,12 @@ public class GameManager : MonoBehaviour
     public StructureManager structureManager;
     public void Initialize()
     {
+
         uiController.OnRoadPlacement += RoadPlacementHandler;
         uiController.OnHousePlacement += HousePlacementHandler;
         uiController.OnSpecialPlacement += SpecialPlacementHandler;
         uiController.OnBigStructurePlacement += BigStructurePlacementHandler;
-        uiController.OnPlayerHousePlacement += PlayerHousePlacementHandler; 
+        uiController.OnPlayerHousePlacement += PlayerHousePlacementHandler;
     }
 
     private void PlayerHousePlacementHandler()

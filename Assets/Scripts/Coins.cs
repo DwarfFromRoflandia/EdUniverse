@@ -6,7 +6,12 @@ using TMPro;
 public class Coins : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _quantityCoinsText;
-    private int quantityCoins = 100;
+    private int quantityCoins = 1000;
+
+    public readonly int CostPlayerHouse = 100;
+    public readonly int CostCityHall = 100;
+    public readonly int CostAcropolis = 100;
+    public readonly int CostHouses = 5;
 
     public void Initialize()
     {

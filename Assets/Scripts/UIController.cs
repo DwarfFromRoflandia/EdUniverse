@@ -11,18 +11,24 @@ public class UIController : MonoBehaviour
 
 
     public Color outlineColor;
-    List<Button> buttonList;
+    public List<Button> buttonList;
+
+    private int _indexUnlockedButton;
+
+    public int IndexUnlockedButton { get => _indexUnlockedButton; set { _indexUnlockedButton = value; }}
+
 
     public void Initialize()
     {
-        buttonList = new List<Button> { placeHouseButton, placeRoadButton, placeSpecialButton, placeBigStructureButton, placePlayerHouse };
+        buttonList = new List<Button> { placePlayerHouse, placeSpecialButton, placeBigStructureButton, placeRoadButton, placeHouseButton };
+
+        BlockButtons();
 
         placeRoadButton.onClick.AddListener(() =>
         {
             ResetButtonColor();
             ModifyOutline(placeRoadButton);
             OnRoadPlacement?.Invoke();
-
         });
         placeHouseButton.onClick.AddListener(() =>
         {
@@ -52,6 +58,45 @@ public class UIController : MonoBehaviour
             OnPlayerHousePlacement?.Invoke();
 
         });
+    }
+
+    public void BlockButtons()
+    {
+        IndexUnlockedButton++;
+
+        switch (IndexUnlockedButton)
+        {
+            case 1:
+                placePlayerHouse.interactable = true;
+                placeSpecialButton.interactable = false;
+                placeBigStructureButton.interactable = false;
+                placeRoadButton.interactable = false;
+                placeHouseButton.interactable = false;
+                break;
+            case 2:
+                placePlayerHouse.interactable = false;
+                placeSpecialButton.interactable = true;
+                placeBigStructureButton.interactable = false;
+                placeRoadButton.interactable = false;
+                placeHouseButton.interactable = false;
+                break;
+            case 3:
+                placePlayerHouse.interactable = false;
+                placeSpecialButton.interactable = false;
+                placeBigStructureButton.interactable = true;
+                placeRoadButton.interactable = true;
+                placeHouseButton.interactable = true;
+                break;
+            case 4:
+                placePlayerHouse.interactable = false;
+                placeSpecialButton.interactable = false;
+                placeBigStructureButton.interactable = false;
+                placeRoadButton.interactable = true;
+                placeHouseButton.interactable = true;
+                break;
+            default:
+                break;
+        }
     }
 
     private void ModifyOutline(Button button)

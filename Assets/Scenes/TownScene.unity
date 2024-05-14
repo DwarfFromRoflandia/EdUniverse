@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.62513727, g: 0.695441, b: 0.78916824, a: 1}
+  m_IndirectSpecularColor: {r: 0.625131, g: 0.69543827, b: 0.78916645, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5110,8 +5110,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 161cefe2cdac5634a9b9df82f65ff1d3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7055,6 +7055,7 @@ MonoBehaviour:
   placeBigStructureButton: {fileID: 1739991808}
   placePlayerHouse: {fileID: 398349528}
   outlineColor: {r: 0.5830207, g: 0.7735849, b: 0.25178, a: 1}
+  buttonList: []
 --- !u!114 &681313535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14824,7 +14825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1332507426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19665,6 +19666,8 @@ MonoBehaviour:
   - prefab: {fileID: 5985451652230937832, guid: 08bf96a139f4a7e4aaeda03d2c9f932e, type: 3}
     weight: 1
   placementManager: {fileID: 77998401}
+  _uiController: {fileID: 681313534}
+  _coins: {fileID: 1818557676}
 --- !u!4 &1706352907
 Transform:
   m_ObjectHideFlags: 0
