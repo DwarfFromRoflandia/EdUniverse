@@ -41,7 +41,7 @@ public class StructureManager : MonoBehaviour
     {
         if (CheckPositionBeforePlacement(position))
         {
-            if (_coins.QuantityCoins >= _coins.CostCityHall)
+            if (_coins.QuantityCoins >= _coins.CostCityHall && _uiController.placeSpecialButton.interactable)
             {
                 int randomIndex = GetRandomWeightedIndex(specialWeights);
                 placementManager.PlaceObjectOnTheMap(position, specialPrefabs[randomIndex].prefab, CellType.Structure);
@@ -119,7 +119,7 @@ public class StructureManager : MonoBehaviour
         int height = 2;
         if (CheckBigStructure(position, width, height))
         {
-            if (_coins.QuantityCoins >= _coins.CostAcropolis)
+            if (_coins.QuantityCoins >= _coins.CostAcropolis && _uiController.placeBigStructureButton.interactable)
             {
                 int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
                 placementManager.PlaceObjectOnTheMap(position, bigStructuresPrefabs[randomIndex].prefab, CellType.Structure, width, height);
@@ -136,7 +136,7 @@ public class StructureManager : MonoBehaviour
         int height = 2;
         if (CheckBigStructure(position, width, height))
         {
-            if (_coins.QuantityCoins >= _coins.CostPlayerHouse)
+            if (_coins.QuantityCoins >= _coins.CostPlayerHouse && _uiController.placePlayerHouse.interactable)
             {
                 int randomIndex = GetRandomWeightedIndex(bigStructureWeights);
                 placementManager.PlaceObjectOnTheMap(position, playerHousePrefabs[randomIndex].prefab, CellType.Structure, width, height);

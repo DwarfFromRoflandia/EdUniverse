@@ -6,7 +6,7 @@ using TMPro;
 public class Coins : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _quantityCoinsText;
-    private int quantityCoins = 1000;
+    private int quantityCoins = 310;
 
     public readonly int CostPlayerHouse = 100;
     public readonly int CostCityHall = 100;
