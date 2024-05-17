@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using SVS;
 using System;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] private CameraMovement _cameraMovement;
     [SerializeField] private InputManager _inputManager;
@@ -66,5 +68,25 @@ public class GameManager : MonoBehaviour
         _inputManager.OnMouseClick = null;
         _inputManager.OnMouseHold = null;
         _inputManager.OnMouseUp = null;
+    }
+
+    public void LeaveButton()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
+
+    public override void OnLeftRoom()
+    {
+        PhotonNetwork.LoadLevel("TownRegistrationScene");
+    }
+
+    public override void OnPlayerEnteredRoom(Player newPlayer) //notification of the nickname of the player who entered the room
+    {
+        Debug.LogFormat("Player {0} entered the room", newPlayer.NickName);
+    }
+
+    public override void OnPlayerLeftRoom(Player otherPlayer) //notification of the nickname of the player who left the room
+    {
+        Debug.LogFormat("Player {0} left the room", otherPlayer.NickName);
     }
 }

@@ -4,17 +4,16 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
+using TMPro;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] private string _region;
-    [SerializeField] private InputField _nickNameInCreatedRoom;
-    [SerializeField] private InputField _nickNameInJoinedRoom;
+    [SerializeField] private TMP_InputField _cityNameInCreatedRoom;
+    [SerializeField] private TMP_InputField _cityNameInJoinedRoom;
 
-    [SerializeField] private InputField _passwordCreatedRoom;
-    [SerializeField] private InputField _passwordJoinedRoom;
+    [SerializeField] private TMP_InputField _passwordJoinedRoom;
 
-    [SerializeField] private GameObject _userPrefab;
     public void Intialize()
     {
         ConnectingToServer();
@@ -30,6 +29,8 @@ public class PhotonManager : MonoBehaviourPunCallbacks
             PhotonNetwork.EnableCloseConnection = true;
         }
     }
+
+    private string GeneratePassword() => Random.Range(100000, 999999 + 1).ToString();
 
     public override void OnConnectedToMaster() //called when the client is connected to the Master Server and ready for matchmaking and other tasks.
     {
@@ -49,11 +50,11 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
         RoomOptions roomOptions = new RoomOptions(); //roomOptions wraps up common room properties needed when you create rooms.
         roomOptions.MaxPlayers = 20;
-        PhotonNetwork.NickName = _nickNameInCreatedRoom.text;
+        PhotonNetwork.NickName = _cityNameInCreatedRoom.text;
 
-        PhotonNetwork.CreateRoom(_passwordCreatedRoom.text, roomOptions, TypedLobby.Default); //creates a new room.When successful, this calls the callbacks OnCreatedRoom and OnJoinedRoom (the latter, cause you join as first player). Creating a room will fail if the room name is already in use. 
+        PhotonNetwork.CreateRoom(GeneratePassword(), roomOptions, TypedLobby.Default); //creates a new room.When successful, this calls the callbacks OnCreatedRoom and OnJoinedRoom (the latter, cause you join as first player). Creating a room will fail if the room name is already in use. 
 
-        PhotonNetwork.LoadLevel("CallScene"); //switching to another scene when CREATING a room
+        PhotonNetwork.LoadLevel("TownScene"); //switching to another scene when CREATING a room
     }
 
     public override void OnCreatedRoom()
@@ -68,12 +69,12 @@ public class PhotonManager : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("CallScene"); //switching to another scene when JOINING a room
+        PhotonNetwork.LoadLevel("TownScene"); //switching to another scene when JOINING a room
     }
 
     public void JoinButton()
     {
-        PhotonNetwork.NickName = _nickNameInJoinedRoom.text;
+        PhotonNetwork.NickName = _cityNameInJoinedRoom.text;
         PhotonNetwork.JoinRoom(_passwordJoinedRoom.text);
     }
 }
