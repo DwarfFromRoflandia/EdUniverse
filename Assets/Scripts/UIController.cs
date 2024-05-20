@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class UIController : MonoBehaviour
 {
     public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement, OnPlayerHousePlacement;
-    public Button placeRoadButton, placeHouseButton, placeSpecialButton, placeBigStructureButton, placePlayerHouse;
+    public Button placeRoadButtonForCityOwner, placeHouseButtonForCityOwner, placeSpecialButtonForCityOwner, placeBigStructureButtonForCityOwner, placePlayerHouseButtonForCityOwner;
+    public Button placeRoadButtonForCityGuest, placeHouseButtonForCityGuest;
 
+    [SerializeField] private GameObject _cityOwnerPanel;
+    [SerializeField] private GameObject _cityGuestPanel;
 
     public Color outlineColor;
-    public List<Button> buttonList;
+    public List<Button> ButtonsListForOwnerCity;
+    public List<Button> ButtonsListForGuestCity;
 
     private int _indexUnlockedButton;
 
@@ -20,44 +26,83 @@ public class UIController : MonoBehaviour
 
     public void Initialize()
     {
-        buttonList = new List<Button> { placePlayerHouse, placeSpecialButton, placeBigStructureButton, placeRoadButton, placeHouseButton };
+
+
+        foreach (Player player in PhotonNetwork.PlayerList)
+        {
+            if (PhotonNetwork.IsMasterClient)
+            {
+                _cityOwnerPanel.SetActive(true);
+                _cityGuestPanel.SetActive(false);        
+            }
+            else
+            {
+                _cityGuestPanel.SetActive(true);
+                _cityOwnerPanel.SetActive(false);        
+            }
+        }
+
+        placeRoadButtonForCityOwner = ButtonsListForOwnerCity[3];
+        placeHouseButtonForCityOwner = ButtonsListForOwnerCity[4];
+        placeSpecialButtonForCityOwner = ButtonsListForOwnerCity[1];
+        placeBigStructureButtonForCityOwner = ButtonsListForOwnerCity[2];
+        placePlayerHouseButtonForCityOwner = ButtonsListForOwnerCity[0];
 
         BlockButtons();
 
-        placeRoadButton.onClick.AddListener(() =>
+        placeRoadButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
-            ModifyOutline(placeRoadButton);
+            ModifyOutline(placeRoadButtonForCityOwner);
             OnRoadPlacement?.Invoke();
         });
-        placeHouseButton.onClick.AddListener(() =>
+        placeHouseButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
-            ModifyOutline(placeHouseButton);
+            ModifyOutline(placeHouseButtonForCityOwner);
             OnHousePlacement?.Invoke();
 
         });
-        placeSpecialButton.onClick.AddListener(() =>
+        placeSpecialButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
-            ModifyOutline(placeSpecialButton);
+            ModifyOutline(placeSpecialButtonForCityOwner);
             OnSpecialPlacement?.Invoke();
 
         });
-        placeBigStructureButton.onClick.AddListener(() =>
+        placeBigStructureButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
-            ModifyOutline(placeBigStructureButton);
+            ModifyOutline(placeBigStructureButtonForCityOwner);
             OnBigStructurePlacement?.Invoke();
 
         });
-        placePlayerHouse.onClick.AddListener(() =>
+        placePlayerHouseButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
-            ModifyOutline(placePlayerHouse);
+            ModifyOutline(placePlayerHouseButtonForCityOwner);
             OnPlayerHousePlacement?.Invoke();
 
         });
+
+        placeRoadButtonForCityGuest = ButtonsListForGuestCity[0];
+        placeHouseButtonForCityGuest = ButtonsListForGuestCity[1];
+
+        placeRoadButtonForCityGuest.onClick.AddListener(() =>
+        {
+            ResetButtonColor();
+            ModifyOutline(placeRoadButtonForCityGuest);
+            OnRoadPlacement?.Invoke();
+        });
+
+        placeHouseButtonForCityGuest.onClick.AddListener(() =>
+        {
+            ResetButtonColor();
+            ModifyOutline(placeHouseButtonForCityGuest);
+            OnHousePlacement?.Invoke();
+
+        });
+
     }
 
 
@@ -69,32 +114,32 @@ public class UIController : MonoBehaviour
         switch (IndexUnlockedButton)
         {
             case 1:
-                placePlayerHouse.interactable = true;
-                placeSpecialButton.interactable = false;
-                placeBigStructureButton.interactable = false;
-                placeRoadButton.interactable = false;
-                placeHouseButton.interactable = false;
+                placePlayerHouseButtonForCityOwner.interactable = true;
+                placeSpecialButtonForCityOwner.interactable = false;
+                placeBigStructureButtonForCityOwner.interactable = false;
+                placeRoadButtonForCityOwner.interactable = false;
+                placeHouseButtonForCityOwner.interactable = false;
                 break;
             case 2:
-                placePlayerHouse.interactable = false;
-                placeSpecialButton.interactable = true;
-                placeBigStructureButton.interactable = false;
-                placeRoadButton.interactable = false;
-                placeHouseButton.interactable = false;
+                placePlayerHouseButtonForCityOwner.interactable = false;
+                placeSpecialButtonForCityOwner.interactable = true;
+                placeBigStructureButtonForCityOwner.interactable = false;
+                placeRoadButtonForCityOwner.interactable = false;
+                placeHouseButtonForCityOwner.interactable = false;
                 break;
             case 3:
-                placePlayerHouse.interactable = false;
-                placeSpecialButton.interactable = false;
-                placeBigStructureButton.interactable = true;
-                placeRoadButton.interactable = true;
-                placeHouseButton.interactable = true;
+                placePlayerHouseButtonForCityOwner.interactable = false;
+                placeSpecialButtonForCityOwner.interactable = false;
+                placeBigStructureButtonForCityOwner.interactable = true;
+                placeRoadButtonForCityOwner.interactable = true;
+                placeHouseButtonForCityOwner.interactable = true;
                 break;
             case 4:
-                placePlayerHouse.interactable = false;
-                placeSpecialButton.interactable = false;
-                placeBigStructureButton.interactable = false;
-                placeRoadButton.interactable = true;
-                placeHouseButton.interactable = true;
+                placePlayerHouseButtonForCityOwner.interactable = false;
+                placeSpecialButtonForCityOwner.interactable = false;
+                placeBigStructureButtonForCityOwner.interactable = false;
+                placeRoadButtonForCityOwner.interactable = true;
+                placeHouseButtonForCityOwner.interactable = true;
                 break;
             default:
                 break;
@@ -110,7 +155,7 @@ public class UIController : MonoBehaviour
 
     private void ResetButtonColor()
     {
-        foreach (Button button in buttonList)
+        foreach (Button button in ButtonsListForOwnerCity)
         {
             button.GetComponent<Outline>().enabled = false;
         }

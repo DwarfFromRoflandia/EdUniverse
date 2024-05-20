@@ -1,6 +1,8 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class StructureModel : MonoBehaviour
 {
@@ -8,7 +10,7 @@ public class StructureModel : MonoBehaviour
 
     public void CreateModel(GameObject model)
     {
-        var structure = Instantiate(model, transform);
+        var structure = PhotonNetwork.Instantiate(model.name, transform.position, Quaternion.identity);
         yHeight = structure.transform.position.y;
     }
 
@@ -18,7 +20,7 @@ public class StructureModel : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
-        var structure = Instantiate(model, transform);
+        var structure = PhotonNetwork.Instantiate(model.name, transform.position, Quaternion.identity);
         structure.transform.localPosition = new Vector3(0, yHeight, 0);
         structure.transform.localRotation = rotation;
     }
