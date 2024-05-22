@@ -419,10 +419,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1796}
-    - Class: 114
-      Script: {instanceID: 1798}
-    - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
       Script: {instanceID: 1802}
@@ -433,297 +429,301 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 1814}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 1852}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 1930}
+      Script: {instanceID: 1818}
     - Class: 114
-      Script: {instanceID: 2018}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2514}
+      Script: {instanceID: 3250}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 2632}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 2674}
+      Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 3920}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 4606}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 4646}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 3116}
+      Script: {instanceID: 4904}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 4922}
     - Class: 114
-      Script: {instanceID: 3254}
+      Script: {instanceID: 5068}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 5350}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 5404}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 5494}
     - Class: 114
-      Script: {instanceID: 3904}
+      Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 3914}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 4136}
+      Script: {instanceID: 5884}
     - Class: 114
-      Script: {instanceID: 4870}
+      Script: {instanceID: 5926}
     - Class: 114
-      Script: {instanceID: 4916}
+      Script: {instanceID: 6060}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 6420}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 5190}
+      Script: {instanceID: 6792}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 7098}
     - Class: 114
-      Script: {instanceID: 5230}
+      Script: {instanceID: 7212}
     - Class: 114
-      Script: {instanceID: 5386}
+      Script: {instanceID: 7510}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 7566}
     - Class: 114
-      Script: {instanceID: 5688}
+      Script: {instanceID: 7692}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 7868}
     - Class: 114
-      Script: {instanceID: 5750}
+      Script: {instanceID: 8028}
     - Class: 114
-      Script: {instanceID: 5848}
+      Script: {instanceID: 8202}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 8350}
     - Class: 114
-      Script: {instanceID: 5986}
+      Script: {instanceID: 8626}
     - Class: 114
-      Script: {instanceID: 6032}
+      Script: {instanceID: 8684}
     - Class: 114
-      Script: {instanceID: 6068}
+      Script: {instanceID: 8914}
     - Class: 114
-      Script: {instanceID: 6268}
+      Script: {instanceID: 8994}
     - Class: 114
-      Script: {instanceID: 6280}
+      Script: {instanceID: 9002}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 9096}
     - Class: 114
-      Script: {instanceID: 6396}
+      Script: {instanceID: 9212}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 9224}
     - Class: 114
-      Script: {instanceID: 6514}
+      Script: {instanceID: 9268}
     - Class: 114
-      Script: {instanceID: 6594}
+      Script: {instanceID: 9694}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 6850}
+      Script: {instanceID: 9816}
     - Class: 114
-      Script: {instanceID: 6896}
+      Script: {instanceID: 9818}
     - Class: 114
-      Script: {instanceID: 6974}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 7088}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 7166}
+      Script: {instanceID: 10146}
     - Class: 114
-      Script: {instanceID: 7234}
+      Script: {instanceID: 10238}
     - Class: 114
-      Script: {instanceID: 7266}
+      Script: {instanceID: 10482}
     - Class: 114
-      Script: {instanceID: 7316}
+      Script: {instanceID: 10602}
     - Class: 114
-      Script: {instanceID: 7320}
+      Script: {instanceID: 10668}
     - Class: 114
-      Script: {instanceID: 7648}
-    - Class: 114
-      Script: {instanceID: 7786}
-    - Class: 114
-      Script: {instanceID: 7798}
-    - Class: 114
-      Script: {instanceID: 8022}
-    - Class: 114
-      Script: {instanceID: 8058}
-    - Class: 114
-      Script: {instanceID: 8114}
-    - Class: 114
-      Script: {instanceID: 8172}
-    - Class: 114
-      Script: {instanceID: 8310}
-    - Class: 114
-      Script: {instanceID: 8506}
-    - Class: 114
-      Script: {instanceID: 8682}
-    - Class: 114
-      Script: {instanceID: 8704}
-    - Class: 114
-      Script: {instanceID: 8752}
-    - Class: 114
-      Script: {instanceID: 8874}
-    - Class: 114
-      Script: {instanceID: 8888}
-    - Class: 114
-      Script: {instanceID: 9030}
-    - Class: 114
-      Script: {instanceID: 9052}
-    - Class: 114
-      Script: {instanceID: 9256}
-    - Class: 114
-      Script: {instanceID: 9320}
-    - Class: 114
-      Script: {instanceID: 9340}
-    - Class: 114
-      Script: {instanceID: 9370}
-    - Class: 114
-      Script: {instanceID: 9408}
-    - Class: 114
-      Script: {instanceID: 9480}
-    - Class: 114
-      Script: {instanceID: 9534}
-    - Class: 114
-      Script: {instanceID: 9540}
-    - Class: 114
-      Script: {instanceID: 9614}
-    - Class: 114
-      Script: {instanceID: 9680}
-    - Class: 114
-      Script: {instanceID: 9764}
-    - Class: 114
-      Script: {instanceID: 9772}
-    - Class: 114
-      Script: {instanceID: 9882}
-    - Class: 114
-      Script: {instanceID: 10018}
-    - Class: 114
-      Script: {instanceID: 10034}
-    - Class: 114
-      Script: {instanceID: 10086}
-    - Class: 114
-      Script: {instanceID: 10120}
-    - Class: 114
-      Script: {instanceID: 10216}
-    - Class: 114
-      Script: {instanceID: 10346}
-    - Class: 114
-      Script: {instanceID: 10368}
-    - Class: 114
-      Script: {instanceID: 10380}
-    - Class: 114
-      Script: {instanceID: 10440}
-    - Class: 114
-      Script: {instanceID: 10484}
-    - Class: 114
-      Script: {instanceID: 10564}
-    - Class: 114
-      Script: {instanceID: 10626}
-    - Class: 114
-      Script: {instanceID: 10628}
-    - Class: 114
-      Script: {instanceID: 10680}
-    - Class: 114
-      Script: {instanceID: 10694}
-    - Class: 114
-      Script: {instanceID: 10702}
-    - Class: 114
-      Script: {instanceID: 10706}
-    - Class: 114
-      Script: {instanceID: 10708}
+      Script: {instanceID: 10678}
     - Class: 114
       Script: {instanceID: 10758}
     - Class: 114
-      Script: {instanceID: 10760}
+      Script: {instanceID: 10866}
     - Class: 114
-      Script: {instanceID: 10832}
+      Script: {instanceID: 10994}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11078}
+      Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 11182}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 11190}
+      Script: {instanceID: 11946}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 11438}
+      Script: {instanceID: 13410}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 13498}
     - Class: 114
-      Script: {instanceID: 11472}
+      Script: {instanceID: 13502}
     - Class: 114
-      Script: {instanceID: 11604}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 13558}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 13574}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 13578}
     - Class: 114
-      Script: {instanceID: 11896}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 13726}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 13746}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 12530}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 12720}
+      Script: {instanceID: 13842}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 13854}
     - Class: 114
-      Script: {instanceID: 12846}
+      Script: {instanceID: 13874}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 13922}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 13926}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 13942}
     - Class: 114
-      Script: {instanceID: 12988}
+      Script: {instanceID: 13954}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 14082}
     - Class: 114
-      Script: {instanceID: 13238}
+      Script: {instanceID: 14098}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 14122}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 14186}
     - Class: 114
-      Script: {instanceID: 115296}
+      Script: {instanceID: 14194}
+    - Class: 114
+      Script: {instanceID: 14206}
+    - Class: 114
+      Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 14322}
+    - Class: 114
+      Script: {instanceID: 14326}
+    - Class: 114
+      Script: {instanceID: 14330}
+    - Class: 114
+      Script: {instanceID: 14406}
+    - Class: 114
+      Script: {instanceID: 14462}
+    - Class: 114
+      Script: {instanceID: 14494}
+    - Class: 114
+      Script: {instanceID: 14498}
+    - Class: 114
+      Script: {instanceID: 14514}
+    - Class: 114
+      Script: {instanceID: 14562}
+    - Class: 114
+      Script: {instanceID: 14586}
+    - Class: 114
+      Script: {instanceID: 14630}
+    - Class: 114
+      Script: {instanceID: 14686}
+    - Class: 114
+      Script: {instanceID: 14734}
+    - Class: 114
+      Script: {instanceID: 14746}
+    - Class: 114
+      Script: {instanceID: 14758}
+    - Class: 114
+      Script: {instanceID: 14826}
+    - Class: 114
+      Script: {instanceID: 14850}
+    - Class: 114
+      Script: {instanceID: 14906}
+    - Class: 114
+      Script: {instanceID: 14910}
+    - Class: 114
+      Script: {instanceID: 14926}
+    - Class: 114
+      Script: {instanceID: 14982}
+    - Class: 114
+      Script: {instanceID: 14994}
+    - Class: 114
+      Script: {instanceID: 15038}
+    - Class: 114
+      Script: {instanceID: 15042}
+    - Class: 114
+      Script: {instanceID: 15066}
+    - Class: 114
+      Script: {instanceID: 15094}
+    - Class: 114
+      Script: {instanceID: 15114}
+    - Class: 114
+      Script: {instanceID: 15178}
+    - Class: 114
+      Script: {instanceID: 15210}
+    - Class: 114
+      Script: {instanceID: 15250}
+    - Class: 114
+      Script: {instanceID: 15270}
+    - Class: 114
+      Script: {instanceID: 15306}
+    - Class: 114
+      Script: {instanceID: 15310}
+    - Class: 114
+      Script: {instanceID: 15350}
+    - Class: 114
+      Script: {instanceID: 15374}
+    - Class: 114
+      Script: {instanceID: 15382}
+    - Class: 114
+      Script: {instanceID: 15458}
+    - Class: 114
+      Script: {instanceID: 15470}
+    - Class: 114
+      Script: {instanceID: 15474}
+    - Class: 114
+      Script: {instanceID: 15518}
+    - Class: 114
+      Script: {instanceID: 15550}
+    - Class: 114
+      Script: {instanceID: 15562}
+    - Class: 114
+      Script: {instanceID: 15602}
+    - Class: 114
+      Script: {instanceID: 15626}
+    - Class: 114
+      Script: {instanceID: 15638}
+    - Class: 114
+      Script: {instanceID: 20722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -796,59 +796,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 1800}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 1806}
+      Script: {instanceID: 1810}
     - Class: 114
-      Script: {instanceID: 1852}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 5350}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 7868}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 8028}
     - Class: 114
-      Script: {instanceID: 6132}
+      Script: {instanceID: 8202}
     - Class: 114
-      Script: {instanceID: 6268}
+      Script: {instanceID: 8350}
     - Class: 114
-      Script: {instanceID: 6850}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 6932}
+      Script: {instanceID: 10668}
     - Class: 114
-      Script: {instanceID: 8506}
+      Script: {instanceID: 11790}
     - Class: 114
-      Script: {instanceID: 8682}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 8874}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 9030}
+      Script: {instanceID: 13558}
     - Class: 114
-      Script: {instanceID: 9052}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 9286}
+      Script: {instanceID: 14122}
     - Class: 114
-      Script: {instanceID: 10760}
+      Script: {instanceID: 14758}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 14850}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 14878}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 14994}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 15034}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 15230}
     - Class: 114
-      Script: {instanceID: 13238}
+      Script: {instanceID: 15306}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 15374}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -930,22 +930,10 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: f47d399e6a65926b3b71d25212bcaadf
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: MonoInstallerBase
-  - hash:
-      serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: 6c8dc563c9daf354036f69516271e1e2
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
-    className: FooInstaller
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -964,12 +952,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: c89145cc5adc37d255094fb30ce25c7f
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactory
-    className: Foo
   - hash:
       serializedVersion: 2
       Hash: 95c8a8c68e664d4868755f06e7c55997
@@ -1014,12 +996,6 @@ ScriptsOnlyBuild:
     className: CloudRegionProperty
   - hash:
       serializedVersion: 2
-      Hash: d3dafd0f5ced78dcca9f499573298ae1
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
-    className: FooInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 6b2b20d5352b9f1294595326f54bd3c2
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -1030,12 +1006,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 16eed467ed67e4e061b040513aa08529
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
-    className: FooInstaller
   - hash:
       serializedVersion: 2
       Hash: b429a79eba15535cc929ccbc963f28eb
@@ -1062,28 +1032,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggle
   - hash:
       serializedVersion: 2
-      Hash: 39d24d574adf245e801a0565a632a3bb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RoadFixer
-  - hash:
-      serializedVersion: 2
       Hash: fce99de7ab700e0c4c466ebd583aa306
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: ColorLookup
-  - hash:
-      serializedVersion: 2
-      Hash: 00fb1d4b83c0ab8061faeb3b19df6165
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactoryFive
-    className: Foo
-  - hash:
-      serializedVersion: 2
-      Hash: 539da792c7b4bc941901d7d54054a67a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.InstantiateCallback
-    className: Foo
   - hash:
       serializedVersion: 2
       Hash: 75563a97b24811c153add23104e2638f
@@ -1092,34 +1044,16 @@ ScriptsOnlyBuild:
     className: XRSystemData
   - hash:
       serializedVersion: 2
-      Hash: 2b7abe654415bda732ada4a48205834e
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: Asteroid
-  - hash:
-      serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 3edbdb8d6945bbbc31228ddf9d2289ab
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Gorp
-  - hash:
-      serializedVersion: 2
       Hash: 9d5e00857d1f11c83355447be6f95485
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomPropertiesListedInLobbyProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 44e548b7c9e97355ed400497a7faf642
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ZenjectStateMachineBehaviourAutoInjecter
   - hash:
       serializedVersion: 2
       Hash: 4c6ecaf42be91e35c184f87f3b1d2366
@@ -1158,12 +1092,6 @@ ScriptsOnlyBuild:
     className: ProbeReferenceVolumeProfile
   - hash:
       serializedVersion: 2
-      Hash: 36784f9e0ca4a09cb8e5c40a81ee8d32
-    assemblyName: Assembly-CSharp
-    namespaceName: SVS
-    className: CameraMovement
-  - hash:
-      serializedVersion: 2
       Hash: 3b33a7b8500058de83585177ded23333
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -1182,12 +1110,6 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
-      Hash: 50df46e490ec1d99af1574528fedb4e1
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Qux
-  - hash:
-      serializedVersion: 2
       Hash: 28fd3d045acc780719a17f02073eb448
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1198,12 +1120,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnButtonClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: dfee0a5df9dae9c0cd676bf841354c61
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
-    className: Bob
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -1224,28 +1140,10 @@ ScriptsOnlyBuild:
     className: ChannelSelector
   - hash:
       serializedVersion: 2
-      Hash: 89742855c0b42034c2ca6d305c733b0c
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
-    className: Foo
-  - hash:
-      serializedVersion: 2
-      Hash: f7e9af6ae0697b7d35c942458ca7bf3c
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ProjectContext
-  - hash:
-      serializedVersion: 2
       Hash: 14685e30126c37231f2a2f753516d1bd
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: PlayerDetailsController
-  - hash:
-      serializedVersion: 2
-      Hash: db4e9f1f3badacc52b17a9ed87cec584
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactoryOne
-    className: FooInstaller
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -1320,12 +1218,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVBox
   - hash:
       serializedVersion: 2
-      Hash: 9846acbfcb98ed1d429545b865d2f589
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: GameInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 960935b102b3064f4b924de16426e340
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1368,12 +1260,6 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 388dad63501c8098a7ceab71ccd8c2b9
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CopyPasswordButton
-  - hash:
-      serializedVersion: 2
       Hash: 552dca338f20933ce362ebbe559a6aa6
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1398,22 +1284,10 @@ ScriptsOnlyBuild:
     className: PlayerAnimatorManager
   - hash:
       serializedVersion: 2
-      Hash: c9f07a6ba6752c6105d85119ff2ef675
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: 3b8680eaf961a1e89edd59c1a2f3fdf4
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: LayoutElementMatchSize
-  - hash:
-      serializedVersion: 2
-      Hash: 45da76af496131c115443e78f6eaa619
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: GameSettingsInstaller
   - hash:
       serializedVersion: 2
       Hash: 32a1c2701dd12ad2fcaff3f496346fe8
@@ -1644,12 +1518,6 @@ ScriptsOnlyBuild:
     className: TextButtonTransition
   - hash:
       serializedVersion: 2
-      Hash: 4042bcfc589a1f1414e9824e40116924
-    assemblyName: Assembly-CSharp
-    namespaceName: SVS
-    className: AudioPlayer
-  - hash:
-      serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1668,12 +1536,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIndirectToggle
   - hash:
       serializedVersion: 2
-      Hash: 889523a1e50ca1406b26d37a7feef657
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.MonoInstallers
-    className: QuxInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 02b153d5fbad55f1b95aa76df70dc2e0
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.PunBasics
@@ -1690,12 +1552,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 7cb90deba8ac90e522011ed6cf4f6ae0
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
-    className: QuxInstaller
   - hash:
       serializedVersion: 2
       Hash: e8fd74e57e72e8e4ef28792881adb864
@@ -1734,12 +1590,6 @@ ScriptsOnlyBuild:
     className: CurrentRoomAutoCleanupProperty
   - hash:
       serializedVersion: 2
-      Hash: e3351f80976f61d0fe9b98e8ff41d7bc
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: PlayerGui
-  - hash:
-      serializedVersion: 2
       Hash: bf507e4f2c90b584676778cea17e3e89
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -1762,12 +1612,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
     className: SplineWalker
-  - hash:
-      serializedVersion: 2
-      Hash: 863f47928bed8fc90c2d4b5a6260d5d0
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Bob
   - hash:
       serializedVersion: 2
       Hash: 2bde227d4cd87b7d2b7b115f34e00c4d
@@ -1836,12 +1680,6 @@ ScriptsOnlyBuild:
     className: LiftGammaGain
   - hash:
       serializedVersion: 2
-      Hash: c1cf867d8420243451a604db26ae2239
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: GuiRenderer
-  - hash:
-      serializedVersion: 2
       Hash: cde402e184a6ab530144506bc9d6a0af
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -1878,28 +1716,10 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 62ade285f09f4caad15ac45daed8bed6
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Norf2
-  - hash:
-      serializedVersion: 2
       Hash: 672716ae97f6ddb615fa5ac3ec9da349
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 490bce7bf514cec66ec3906332024d55
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
-    className: Foo2
-  - hash:
-      serializedVersion: 2
-      Hash: c433277487470bf88bdb10343bb8ef7e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 7ba86577a1f3d5b35e9eb696237bfa1e
@@ -1956,12 +1776,6 @@ ScriptsOnlyBuild:
     className: SendRateOnSerializeField
   - hash:
       serializedVersion: 2
-      Hash: 0b16b9f8300e68a4cc288bd26479c71d
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: d2ecd94550edf1b56aff07b1f4e41c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1992,28 +1806,10 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 1d2579deb043c231028369665b31fc53
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.PrefabFactory
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: 4dae2fb79bde536f257529d9c8bf0bc1
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo
     className: WebRpcImplementationExample
-  - hash:
-      serializedVersion: 2
-      Hash: 655a8feb4be31a2c5b52e33cd6b4b8c5
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ZenAutoInjecter
-  - hash:
-      serializedVersion: 2
-      Hash: 9ed30963d3acdca9fef255208fb6cc81
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.PrefabFactory
-    className: Foo2
   - hash:
       serializedVersion: 2
       Hash: c2ba3ead52a4621520f31d6648a688cd
@@ -2050,12 +1846,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e26d66f140ef52610c26ff8bd39eab83
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ScriptableObjectInstallerBase
   - hash:
       serializedVersion: 2
       Hash: fb007136d7f71bab9bf6de7893cb8fcb
@@ -2112,24 +1902,6 @@ ScriptsOnlyBuild:
     className: DecalProjector
   - hash:
       serializedVersion: 2
-      Hash: 405c9d5dccab92a5514792a9c35fa6c4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EntryPointTownScene
-  - hash:
-      serializedVersion: 2
-      Hash: 0aeea0925784ceca46b23d5e20583350
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: SceneDecoratorContext
-  - hash:
-      serializedVersion: 2
-      Hash: 59d98e6e2ac2b94e251cf34f3d57ec09
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: 9a620e61a4cb9a654a1f949bdb6337db
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -2146,12 +1918,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
     className: PhotonStatsGui
-  - hash:
-      serializedVersion: 2
-      Hash: b60cb216b806a1cd5413a9f1d4b98952
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactoryFive
-    className: FooInstaller
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
@@ -2202,12 +1968,6 @@ ScriptsOnlyBuild:
     className: StateMachine
   - hash:
       serializedVersion: 2
-      Hash: 67e3666e43a6e88802c9ab9a2f8dc59a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.TestAnimationStateBehaviourInject
-    className: StateBehaviour1
-  - hash:
-      serializedVersion: 2
       Hash: 7ec8b9099254520135a0697569b2d0a9
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2218,12 +1978,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: Photon.Chat.UtilityScripts
     className: TextToggleIsOnTransition
-  - hash:
-      serializedVersion: 2
-      Hash: dad6f5a77eb05a05e4df015bf8bb7e98
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Norf
   - hash:
       serializedVersion: 2
       Hash: 1553f209ae0b2d5d3a35685fca55f9c3
@@ -2256,22 +2010,10 @@ ScriptsOnlyBuild:
     className: ServerSettings
   - hash:
       serializedVersion: 2
-      Hash: dbdeca84ba72273de5763b5b46b80fd3
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.MonoInstallers
-    className: FooInstaller
-  - hash:
-      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
-  - hash:
-      serializedVersion: 2
-      Hash: f96e5eed55211dc7d33acae069bf166b
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: SceneKernel
   - hash:
       serializedVersion: 2
       Hash: 6804b695ef9e4a521c99353deae70fc4
@@ -2340,12 +2082,6 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 3fb3aaf35961b41f1da7ae0045a735c6
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: MonoInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 11d3e26329ccca626aefb88d2adba923
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -2382,12 +2118,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 8a283c141b2085fec776f2400bd3533e
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
-    className: Bar
-  - hash:
-      serializedVersion: 2
       Hash: 5b8c65d2c948e1fd139b0d3e26d598ef
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -2418,22 +2148,10 @@ ScriptsOnlyBuild:
     className: RoomListCell
   - hash:
       serializedVersion: 2
-      Hash: 5fe011a2b971b3d79c540f9e59d76fb4
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: EnemyFacade
-  - hash:
-      serializedVersion: 2
       Hash: 75c6c9197c7a58bd598182947369a142
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: RenderObjects
-  - hash:
-      serializedVersion: 2
-      Hash: 504eb830acfe6911ae5b2171985ebee9
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
-    className: Bar
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -2574,12 +2292,6 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 1c79a047d9b34eabc7e827ffd46e65f7
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
-    className: Gorp
-  - hash:
-      serializedVersion: 2
       Hash: edfd497991d8226deea957e3eed0f241
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.PunBasics
@@ -2596,12 +2308,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 8a7d939b6f38bb005180f1c51e307a50
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
-    className: Gorp
   - hash:
       serializedVersion: 2
       Hash: e23d2210701e34e6850023cabe554c1f
@@ -2634,12 +2340,6 @@ ScriptsOnlyBuild:
     className: PhotonView
   - hash:
       serializedVersion: 2
-      Hash: e0e17c87fc926a8b4028d67733b60ad0
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
-    className: Gorp2
-  - hash:
-      serializedVersion: 2
       Hash: e46d875bf9144cadef23d6a0e070997e
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -2656,12 +2356,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
-  - hash:
-      serializedVersion: 2
-      Hash: 1cd659f99adf37ce01e93bfa035ee564
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StructureManager
   - hash:
       serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
@@ -2694,18 +2388,6 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
-      Hash: 0e19b2cf2a3081e434ac672bbbf5aca9
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: AnimatorIkHandlerManager
-  - hash:
-      serializedVersion: 2
-      Hash: 74f6922f3276af394b356105d3582704
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: TilingBackground
-  - hash:
-      serializedVersion: 2
       Hash: b810dfd26c061161a980f9a956f9a116
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2716,12 +2398,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 5a740d28bdf7e89214456d3b1c668f10
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
-    className: Bar
   - hash:
       serializedVersion: 2
       Hash: cf32d98954e63b8e30e9334b152e9b8e
@@ -2736,22 +2412,10 @@ ScriptsOnlyBuild:
     className: BoolInputField
   - hash:
       serializedVersion: 2
-      Hash: bc184c9d5a5d15b86312540415ecc623
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: InputManager
-  - hash:
-      serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnControllerColliderHitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 2666af9e28c0d766de0365125292e63c
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.AutoInjecter
-    className: Gorp
   - hash:
       serializedVersion: 2
       Hash: 10ffd5579f941e0f4946756d18f1a9df
@@ -2766,12 +2430,6 @@ ScriptsOnlyBuild:
     className: EventSystemSpawner
   - hash:
       serializedVersion: 2
-      Hash: 1205f8f6820b869afab7ba3e4c9bff92
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Norf2
-  - hash:
-      serializedVersion: 2
       Hash: be60f316c7805f2fafe2115ca4c7dafc
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2784,34 +2442,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggleHistory
   - hash:
       serializedVersion: 2
-      Hash: ab50fce2876283f309bbcd0c7d563671
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Qux
-  - hash:
-      serializedVersion: 2
-      Hash: 308fe85b5f95d00e2a124e30b8ca3a21
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Foo
-  - hash:
-      serializedVersion: 2
-      Hash: f87cdbb2e1edc31fb7882774b5c81a4a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactoryOne
-    className: Bar
-  - hash:
-      serializedVersion: 2
       Hash: 8d8ae7a41b7ee613084011b4a71e2b8b
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: BackgroundTimeOutField
-  - hash:
-      serializedVersion: 2
-      Hash: 7168a92c65b4112277ca1a8bd9ac4e9a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
-    className: FooInstaller
   - hash:
       serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
@@ -2892,12 +2526,6 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 38a515bb8f6388f2d53ecb8e64d2da72
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ProjectKernel
-  - hash:
-      serializedVersion: 2
       Hash: 4ee1e5f285c826248e282a4df1635b19
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2952,12 +2580,6 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: f4213552eee1d3aefc0102798b616400
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: GameSettingsInstaller
-  - hash:
-      serializedVersion: 2
       Hash: ef5bdbd21b92ab90752c49f5ea108025
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
@@ -2968,30 +2590,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: Vignette
-  - hash:
-      serializedVersion: 2
-      Hash: 8761adc9abdbd1782964028e5a5d9303
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Jim
-  - hash:
-      serializedVersion: 2
-      Hash: 0095490dcd24134ba85200ce69360dbc
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Gorp
-  - hash:
-      serializedVersion: 2
-      Hash: 2adc43677402b0c52acb5d963e073bc2
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Bar
-  - hash:
-      serializedVersion: 2
-      Hash: 2752c4737e3caed100836104d79b839a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.MonoInstallers
-    className: BarInstaller
   - hash:
       serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
@@ -3006,22 +2604,10 @@ ScriptsOnlyBuild:
     className: SceneVariables
   - hash:
       serializedVersion: 2
-      Hash: ed20cdb5cb456fc692653851ae208eb0
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: Ship
-  - hash:
-      serializedVersion: 2
       Hash: f2098fcd8ee983a05ec192f63904298f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d37ea0c6d12844fb5c7dcafc12c9515b
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
-    className: Foo
   - hash:
       serializedVersion: 2
       Hash: 51b80d3734ea86b38e3101db98029e15
@@ -3060,18 +2646,6 @@ ScriptsOnlyBuild:
     className: Tonemapping
   - hash:
       serializedVersion: 2
-      Hash: 3306a8c2c715d72501028963829bd671
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Bar
-  - hash:
-      serializedVersion: 2
-      Hash: 34fa5c8e20f98601497dcdca395f4941
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Bob
-  - hash:
-      serializedVersion: 2
       Hash: 8c3b6e24ca691fc0bf819c86e6b91dff
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -3088,12 +2662,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 6cd307e2ef4382a218ec633b4400592a
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
-    className: CircFoo
   - hash:
       serializedVersion: 2
       Hash: c4c0913c42060afea7fbde17265756b3
@@ -3114,12 +2682,6 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e1e90422f252230bceddb9ce97b9031d
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -3130,12 +2692,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: ChannelMixer
-  - hash:
-      serializedVersion: 2
-      Hash: 9136b26d5c70c806bb029bdf5f8f9895
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EntryPointTownRegistrationScene
   - hash:
       serializedVersion: 2
       Hash: befeb5ccaacdad7699de81c2103c5297
@@ -3168,12 +2724,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFloatField
   - hash:
       serializedVersion: 2
-      Hash: 5e328654fef8e4a1f760365d1263a13f
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: DefaultGameObjectKernel
-  - hash:
-      serializedVersion: 2
       Hash: 4ea783b41b19fc5492b99a0e1b5d845d
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.SlotRacer
@@ -3192,28 +2742,10 @@ ScriptsOnlyBuild:
     className: Launcher
   - hash:
       serializedVersion: 2
-      Hash: 03f245dfe90ac54983dd8bba7f6c7bc6
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: PlayerInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 049f6aa84fe1cb5359c9338e96d0b07e
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: UIFoldout
-  - hash:
-      serializedVersion: 2
-      Hash: e471ad9dfc7a1b16774bc82da6dd00b2
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.AutoInjecter
-    className: Qux
-  - hash:
-      serializedVersion: 2
-      Hash: 8ef8eb2a552e2213a9adefb75022d7db
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: GameObjectContext
   - hash:
       serializedVersion: 2
       Hash: fed5491d60dcea1c3d5ffc4a860a426b
@@ -3226,24 +2758,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 6cda09bc67d0e8ae64904cb024589081
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: Bullet
-  - hash:
-      serializedVersion: 2
-      Hash: a0518612564223bc57453af19eef5a43
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: EnemyView
-  - hash:
-      serializedVersion: 2
-      Hash: 42708a0855f482f22fb18f51705c8165
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: AnimatorMoveHandlerManager
   - hash:
       serializedVersion: 2
       Hash: b72839eb6e4350778dc879d98832aa2b
@@ -3276,12 +2790,6 @@ ScriptsOnlyBuild:
     className: SplinePosition
   - hash:
       serializedVersion: 2
-      Hash: fdf6193123961d5539e13c7644d5ab61
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: Explosion
-  - hash:
-      serializedVersion: 2
       Hash: 9104447b683bf70406fa01f12ecb564a
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -3294,12 +2802,6 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: 60aec0d1a46695bd5d6118ab7ccc8c9b
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: GuiHandler
-  - hash:
-      serializedVersion: 2
       Hash: febcfbf0a0d85e37808a3740e3c2c6fa
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -3310,12 +2812,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomNameProperty
-  - hash:
-      serializedVersion: 2
-      Hash: 0b886f672112b274260fce2c022b12f1
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefab
-    className: Norf
   - hash:
       serializedVersion: 2
       Hash: 9d086d7472bf765a842b0ccba5a22960
@@ -3378,12 +2874,6 @@ ScriptsOnlyBuild:
     className: IgnoreUiRaycastWhenInactive
   - hash:
       serializedVersion: 2
-      Hash: 0905ab7176fbdc1928bd701918455b34
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactoryOne
-    className: Foo
-  - hash:
-      serializedVersion: 2
       Hash: a357a2336d94d79b69dc64cbbcf47bc0
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -3408,22 +2898,10 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerObjectList
   - hash:
       serializedVersion: 2
-      Hash: 7c3f28ae97ebe36b2a1e9d69cbd29b69
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: ControlsDisplay
-  - hash:
-      serializedVersion: 2
       Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: efdabdaf4c3c5cfa3288577c9799630e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StructureModel
   - hash:
       serializedVersion: 2
       Hash: 06161487d001819821a6054ef2e5dc77
@@ -3438,22 +2916,10 @@ ScriptsOnlyBuild:
     className: BasicPlayableBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 30781737fb6e9386a388e1655d97149c
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Factories.BindFactory
-    className: Bar
-  - hash:
-      serializedVersion: 2
       Hash: 19824dd35debb3fff0983df49f8359ab
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
-  - hash:
-      serializedVersion: 2
-      Hash: 052512341131158e6bfb57aabe588de4
-    assemblyName: Zenject
-    namespaceName: Zenject.SpaceFighter
-    className: PlayerFacade
   - hash:
       serializedVersion: 2
       Hash: 6a0b5b415c00f783202fd1ae2d556cb2
@@ -3504,12 +2970,6 @@ ScriptsOnlyBuild:
     className: CurrentRoomMaxPlayersProperty
   - hash:
       serializedVersion: 2
-      Hash: 0bffad1ca442e30737af2363bc8c0cef
-    assemblyName: Zenject
-    namespaceName: Zenject.Asteroids
-    className: GameInstaller
-  - hash:
-      serializedVersion: 2
       Hash: bb2ee6fbbb677614393cc5915b82fee4
     assemblyName: Assembly-CSharp
     namespaceName: Photon.Chat.Demo
@@ -3520,12 +2980,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c96de2ce53e5535edbbd1e91316e2ca9
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ZenjectBinding
   - hash:
       serializedVersion: 2
       Hash: 511be1353e4fe78b765a7f85481d4280
@@ -3570,46 +3024,16 @@ ScriptsOnlyBuild:
     className: RegionListView
   - hash:
       serializedVersion: 2
-      Hash: 57e63593a43ba22e733603f1f8268d45
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.AutoInjecter
-    className: Bar
-  - hash:
-      serializedVersion: 2
-      Hash: 6a79a94899b149b426c903d7ef3c1682
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: ScriptableObjectInstaller
-  - hash:
-      serializedVersion: 2
       Hash: 01727a040aa965d7fae41c3c1e1d9ee5
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: PaniniProjection
   - hash:
       serializedVersion: 2
-      Hash: 38c9f1df87307f7a7a22a8852d602bda
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: UIController
-  - hash:
-      serializedVersion: 2
-      Hash: 53ff6285ca95b18fd9975ebb4a451e07
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
-    className: Jim
-  - hash:
-      serializedVersion: 2
       Hash: 203b319722c18f871bf32b60c01bd4ce
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Procedural
     className: WorldGenerator
-  - hash:
-      serializedVersion: 2
-      Hash: a446ea1488207c8771caa6fe17fabf6a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RoadManager
   - hash:
       serializedVersion: 2
       Hash: 429e659c846601e123ebde9292440c3d
@@ -3628,18 +3052,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Coins
-  - hash:
-      serializedVersion: 2
-      Hash: cbc7b8247d0e3686ba3317a77ebdb273
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
-    className: Foo
-  - hash:
-      serializedVersion: 2
-      Hash: 17d0a2a063a39c6efee87f625693a60e
-    assemblyName: Zenject-IntegrationTests
-    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
-    className: BarInstaller
   - hash:
       serializedVersion: 2
       Hash: 711ba963e2b245a25de71beeaeeeb658
@@ -3666,22 +3078,10 @@ ScriptsOnlyBuild:
     className: AppVersionProperty
   - hash:
       serializedVersion: 2
-      Hash: 6f55e6ad02ad57631409dc1de191198d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlacementManager
-  - hash:
-      serializedVersion: 2
       Hash: 83f8a5338e8d5b85bd59bf57d9518105
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Asteroids
     className: RoomListEntry
-  - hash:
-      serializedVersion: 2
-      Hash: fefff53d0aa6b2be0209571304ebddb6
-    assemblyName: Zenject
-    namespaceName: Zenject
-    className: SceneContext
   - hash:
       serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
@@ -3700,8 +3100,608 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6a79a94899b149b426c903d7ef3c1682
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ScriptableObjectInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: e3351f80976f61d0fe9b98e8ff41d7bc
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerGui
+  - hash:
+      serializedVersion: 2
+      Hash: 0b16b9f8300e68a4cc288bd26479c71d
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: b60cb216b806a1cd5413a9f1d4b98952
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 42708a0855f482f22fb18f51705c8165
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: AnimatorMoveHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0905ab7176fbdc1928bd701918455b34
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: c96de2ce53e5535edbbd1e91316e2ca9
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ZenjectBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 388dad63501c8098a7ceab71ccd8c2b9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CopyPasswordButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5a740d28bdf7e89214456d3b1c668f10
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 6cd307e2ef4382a218ec633b4400592a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: CircFoo
+  - hash:
+      serializedVersion: 2
+      Hash: a446ea1488207c8771caa6fe17fabf6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoadManager
+  - hash:
+      serializedVersion: 2
+      Hash: 655a8feb4be31a2c5b52e33cd6b4b8c5
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ZenAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 0b886f672112b274260fce2c022b12f1
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: ab50fce2876283f309bbcd0c7d563671
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: fdf6193123961d5539e13c7644d5ab61
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: Explosion
+  - hash:
+      serializedVersion: 2
+      Hash: 1d2579deb043c231028369665b31fc53
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 3fb3aaf35961b41f1da7ae0045a735c6
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: MonoInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 50df46e490ec1d99af1574528fedb4e1
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: c89145cc5adc37d255094fb30ce25c7f
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 539da792c7b4bc941901d7d54054a67a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.InstantiateCallback
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 36784f9e0ca4a09cb8e5c40a81ee8d32
+    assemblyName: Assembly-CSharp
+    namespaceName: SVS
+    className: CameraMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 8a7d939b6f38bb005180f1c51e307a50
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: dad6f5a77eb05a05e4df015bf8bb7e98
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf
+  - hash:
+      serializedVersion: 2
+      Hash: 2752c4737e3caed100836104d79b839a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: f47d399e6a65926b3b71d25212bcaadf
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: MonoInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 3edbdb8d6945bbbc31228ddf9d2289ab
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 34fa5c8e20f98601497dcdca395f4941
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8dc563c9daf354036f69516271e1e2
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: cbc7b8247d0e3686ba3317a77ebdb273
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 308fe85b5f95d00e2a124e30b8ca3a21
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 0e19b2cf2a3081e434ac672bbbf5aca9
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: AnimatorIkHandlerManager
+  - hash:
+      serializedVersion: 2
+      Hash: db4e9f1f3badacc52b17a9ed87cec584
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: f7e9af6ae0697b7d35c942458ca7bf3c
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ProjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 59d98e6e2ac2b94e251cf34f3d57ec09
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 9846acbfcb98ed1d429545b865d2f589
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 39d24d574adf245e801a0565a632a3bb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoadFixer
+  - hash:
+      serializedVersion: 2
+      Hash: e471ad9dfc7a1b16774bc82da6dd00b2
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Qux
+  - hash:
+      serializedVersion: 2
+      Hash: 504eb830acfe6911ae5b2171985ebee9
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: e0e17c87fc926a8b4028d67733b60ad0
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Gorp2
+  - hash:
+      serializedVersion: 2
+      Hash: 2b7abe654415bda732ada4a48205834e
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: Asteroid
+  - hash:
+      serializedVersion: 2
+      Hash: d3dafd0f5ced78dcca9f499573298ae1
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 3306a8c2c715d72501028963829bd671
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: c1cf867d8420243451a604db26ae2239
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: GuiRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 30781737fb6e9386a388e1655d97149c
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactory
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 38a515bb8f6388f2d53ecb8e64d2da72
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ProjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: d37ea0c6d12844fb5c7dcafc12c9515b
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: e26d66f140ef52610c26ff8bd39eab83
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ScriptableObjectInstallerBase
+  - hash:
+      serializedVersion: 2
+      Hash: 1c79a047d9b34eabc7e827ffd46e65f7
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: dbdeca84ba72273de5763b5b46b80fd3
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 57e63593a43ba22e733603f1f8268d45
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 74f6922f3276af394b356105d3582704
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: TilingBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 8ef8eb2a552e2213a9adefb75022d7db
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: GameObjectContext
+  - hash:
+      serializedVersion: 2
+      Hash: 2666af9e28c0d766de0365125292e63c
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.AutoInjecter
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: 44e548b7c9e97355ed400497a7faf642
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: ZenjectStateMachineBehaviourAutoInjecter
+  - hash:
+      serializedVersion: 2
+      Hash: 8761adc9abdbd1782964028e5a5d9303
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: 2adc43677402b0c52acb5d963e073bc2
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: c9f07a6ba6752c6105d85119ff2ef675
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 9136b26d5c70c806bb029bdf5f8f9895
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EntryPointTownRegistrationScene
+  - hash:
+      serializedVersion: 2
+      Hash: 60aec0d1a46695bd5d6118ab7ccc8c9b
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: GuiHandler
+  - hash:
+      serializedVersion: 2
+      Hash: fefff53d0aa6b2be0209571304ebddb6
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: SceneContext
+  - hash:
+      serializedVersion: 2
+      Hash: 16eed467ed67e4e061b040513aa08529
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromSubContainerPrefab
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 6f55e6ad02ad57631409dc1de191198d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlacementManager
+  - hash:
+      serializedVersion: 2
+      Hash: 405c9d5dccab92a5514792a9c35fa6c4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EntryPointTownScene
+  - hash:
+      serializedVersion: 2
+      Hash: 17d0a2a063a39c6efee87f625693a60e
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: BarInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed30963d3acdca9fef255208fb6cc81
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.PrefabFactory
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: ed20cdb5cb456fc692653851ae208eb0
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: Ship
+  - hash:
+      serializedVersion: 2
+      Hash: 5fe011a2b971b3d79c540f9e59d76fb4
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1cd659f99adf37ce01e93bfa035ee564
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StructureManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7c3f28ae97ebe36b2a1e9d69cbd29b69
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: ControlsDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: c433277487470bf88bdb10343bb8ef7e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6cda09bc67d0e8ae64904cb024589081
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 89742855c0b42034c2ca6d305c733b0c
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 8a283c141b2085fec776f2400bd3533e
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabInstaller
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 7168a92c65b4112277ca1a8bd9ac4e9a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: FooInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 5e328654fef8e4a1f760365d1263a13f
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: DefaultGameObjectKernel
+  - hash:
+      serializedVersion: 2
+      Hash: 889523a1e50ca1406b26d37a7feef657
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.MonoInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 0bffad1ca442e30737af2363bc8c0cef
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: GameInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 0095490dcd24134ba85200ce69360dbc
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Gorp
+  - hash:
+      serializedVersion: 2
+      Hash: bc184c9d5a5d15b86312540415ecc623
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 45da76af496131c115443e78f6eaa619
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 052512341131158e6bfb57aabe588de4
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 7cb90deba8ac90e522011ed6cf4f6ae0
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Installers.ScriptableObjectInstallers
+    className: QuxInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: 4042bcfc589a1f1414e9824e40116924
+    assemblyName: Assembly-CSharp
+    namespaceName: SVS
+    className: AudioPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 53ff6285ca95b18fd9975ebb4a451e07
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Jim
+  - hash:
+      serializedVersion: 2
+      Hash: f87cdbb2e1edc31fb7882774b5c81a4a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactoryOne
+    className: Bar
+  - hash:
+      serializedVersion: 2
+      Hash: 0aeea0925784ceca46b23d5e20583350
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: SceneDecoratorContext
+  - hash:
+      serializedVersion: 2
+      Hash: 38c9f1df87307f7a7a22a8852d602bda
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIController
+  - hash:
+      serializedVersion: 2
+      Hash: f4213552eee1d3aefc0102798b616400
+    assemblyName: Zenject
+    namespaceName: Zenject.Asteroids
+    className: GameSettingsInstaller
+  - hash:
+      serializedVersion: 2
+      Hash: dfee0a5df9dae9c0cd676bf841354c61
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromNewScriptableObjectResource
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: 863f47928bed8fc90c2d4b5a6260d5d0
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Bob
+  - hash:
+      serializedVersion: 2
+      Hash: a0518612564223bc57453af19eef5a43
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: EnemyView
+  - hash:
+      serializedVersion: 2
+      Hash: 00fb1d4b83c0ab8061faeb3b19df6165
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Factories.BindFactoryFive
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: efdabdaf4c3c5cfa3288577c9799630e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StructureModel
+  - hash:
+      serializedVersion: 2
+      Hash: 67e3666e43a6e88802c9ab9a2f8dc59a
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.TestAnimationStateBehaviourInject
+    className: StateBehaviour1
+  - hash:
+      serializedVersion: 2
+      Hash: 490bce7bf514cec66ec3906332024d55
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.DiContainerMethods
+    className: Foo2
+  - hash:
+      serializedVersion: 2
+      Hash: 62ade285f09f4caad15ac45daed8bed6
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefab
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: f96e5eed55211dc7d33acae069bf166b
+    assemblyName: Zenject
+    namespaceName: Zenject
+    className: SceneKernel
+  - hash:
+      serializedVersion: 2
+      Hash: e1e90422f252230bceddb9ce97b9031d
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromComponentInHierarchyGameObjectContext
+    className: Foo
+  - hash:
+      serializedVersion: 2
+      Hash: 1205f8f6820b869afab7ba3e4c9bff92
+    assemblyName: Zenject-IntegrationTests
+    namespaceName: Zenject.Tests.Bindings.FromPrefabResource
+    className: Norf2
+  - hash:
+      serializedVersion: 2
+      Hash: 03f245dfe90ac54983dd8bba7f6c7bc6
+    assemblyName: Zenject
+    namespaceName: Zenject.SpaceFighter
+    className: PlayerInstaller
   platform: 19
   scenePathNames:
   - Assets/Scenes/TownRegistrationScene.unity
   - Assets/Scenes/TownScene.unity
-  playerPath: E:/BuildEdUniverse/EdUniverse.exe
+  playerPath: D:/BuildPC/EdUniverse/Build2/EdUniverse.exe
