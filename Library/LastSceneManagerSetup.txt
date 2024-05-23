@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Years/1 Year/FirstLevelScene.unity
+- path: Assets/Scenes/Years/1 Year/ThirdLevelScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

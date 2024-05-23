@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TownScene.unity
     guid: 441fbe92ce761e54894952527870a92b
+  - enabled: 1
+    path: Assets/Scenes/LearningModuleScene.unity
+    guid: 2321d09ab860f8e408854e2df2d6544d
+  - enabled: 1
+    path: Assets/Scenes/Years/1 Year/FirstLevelScene.unity
+    guid: 35a22b2edf47ce34a98ca44f36f8601d
+  - enabled: 1
+    path: Assets/Scenes/Years/1 Year/SecondLevelScene.unity
+    guid: 2130c76b16a180847b21c7b824249223
+  - enabled: 1
+    path: Assets/Scenes/Years/1 Year/ThirdLevelScene.unity
+    guid: 247b8df542c69854b8d69f43c2b977a7
   m_configObjects: {}
