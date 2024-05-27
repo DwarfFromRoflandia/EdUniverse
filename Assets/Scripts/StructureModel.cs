@@ -10,7 +10,7 @@ public class StructureModel : MonoBehaviour
 
     public void CreateModel(GameObject model)
     {
-        var structure = PhotonNetwork.Instantiate(model.name, transform.position, Quaternion.identity);
+        var structure = PhotonNetwork.Instantiate(model.name, gameObject.transform.position, Quaternion.identity);
         yHeight = structure.transform.position.y;
     }
 

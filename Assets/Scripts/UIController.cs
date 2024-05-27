@@ -9,8 +9,8 @@ using Photon.Realtime;
 public class UIController : MonoBehaviour
 {
     public Action OnRoadPlacement, OnHousePlacement, OnSpecialPlacement, OnBigStructurePlacement, OnPlayerHousePlacement;
-    public Button placeRoadButtonForCityOwner, placeHouseButtonForCityOwner, placeSpecialButtonForCityOwner, placeBigStructureButtonForCityOwner, placePlayerHouseButtonForCityOwner;
-    public Button placeRoadButtonForCityGuest, placeHouseButtonForCityGuest;
+    public Button placeHouseButtonForCityOwner, placeSpecialButtonForCityOwner, placeBigStructureButtonForCityOwner, placePlayerHouseButtonForCityOwner;
+    public Button placeHouseButtonForCityGuest;
 
     [SerializeField] private GameObject _cityOwnerPanel;
     [SerializeField] private GameObject _cityGuestPanel;
@@ -42,20 +42,13 @@ public class UIController : MonoBehaviour
             }
         }
 
-        placeRoadButtonForCityOwner = ButtonsListForOwnerCity[3];
-        placeHouseButtonForCityOwner = ButtonsListForOwnerCity[4];
+        placeHouseButtonForCityOwner = ButtonsListForOwnerCity[3];
         placeSpecialButtonForCityOwner = ButtonsListForOwnerCity[1];
         placeBigStructureButtonForCityOwner = ButtonsListForOwnerCity[2];
         placePlayerHouseButtonForCityOwner = ButtonsListForOwnerCity[0];
 
         BlockButtons();
 
-        placeRoadButtonForCityOwner.onClick.AddListener(() =>
-        {
-            ResetButtonColor();
-            ModifyOutline(placeRoadButtonForCityOwner);
-            OnRoadPlacement?.Invoke();
-        });
         placeHouseButtonForCityOwner.onClick.AddListener(() =>
         {
             ResetButtonColor();
@@ -85,15 +78,8 @@ public class UIController : MonoBehaviour
 
         });
 
-        placeRoadButtonForCityGuest = ButtonsListForGuestCity[0];
-        placeHouseButtonForCityGuest = ButtonsListForGuestCity[1];
+        placeHouseButtonForCityGuest = ButtonsListForGuestCity[0];
 
-        placeRoadButtonForCityGuest.onClick.AddListener(() =>
-        {
-            ResetButtonColor();
-            ModifyOutline(placeRoadButtonForCityGuest);
-            OnRoadPlacement?.Invoke();
-        });
 
         placeHouseButtonForCityGuest.onClick.AddListener(() =>
         {
@@ -117,28 +103,24 @@ public class UIController : MonoBehaviour
                 placePlayerHouseButtonForCityOwner.interactable = true;
                 placeSpecialButtonForCityOwner.interactable = false;
                 placeBigStructureButtonForCityOwner.interactable = false;
-                placeRoadButtonForCityOwner.interactable = false;
                 placeHouseButtonForCityOwner.interactable = false;
                 break;
             case 2:
                 placePlayerHouseButtonForCityOwner.interactable = false;
                 placeSpecialButtonForCityOwner.interactable = true;
                 placeBigStructureButtonForCityOwner.interactable = false;
-                placeRoadButtonForCityOwner.interactable = false;
                 placeHouseButtonForCityOwner.interactable = false;
                 break;
             case 3:
                 placePlayerHouseButtonForCityOwner.interactable = false;
                 placeSpecialButtonForCityOwner.interactable = false;
                 placeBigStructureButtonForCityOwner.interactable = true;
-                placeRoadButtonForCityOwner.interactable = true;
                 placeHouseButtonForCityOwner.interactable = true;
                 break;
             case 4:
                 placePlayerHouseButtonForCityOwner.interactable = false;
                 placeSpecialButtonForCityOwner.interactable = false;
                 placeBigStructureButtonForCityOwner.interactable = false;
-                placeRoadButtonForCityOwner.interactable = true;
                 placeHouseButtonForCityOwner.interactable = true;
                 break;
             default:

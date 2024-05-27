@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2272469626148313076}
   - component: {fileID: 2411072190714126666}
   - component: {fileID: 728169950215519152}
+  - component: {fileID: 5892605107621429618}
   m_Layer: 0
   m_Name: House1
   m_TagString: Untagged
@@ -77,6 +78,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 728169950215519152}
+  - {fileID: 5892605107621429618}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -96,6 +98,39 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &5892605107621429618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2769822920355022703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 1
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 3
+    InterpolateOption: 2
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
 --- !u!1 &7153731400129280308
 GameObject:
   m_ObjectHideFlags: 0
